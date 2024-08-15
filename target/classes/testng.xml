@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Blaze Demo Application POC Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.bd.qa.ExtentReportListner.ExtentReportListner" />
+	</listeners>
+
+
+	<test name="Blaze Demo  App Test Cases">
+		<classes>
+			<class name="com.bd.qa.testcases.WelcomePageTest"></class>
+			<class name="com.bd.qa.testcases.ReservePageTest"></class>
+			<class name="com.bd.qa.testcases.PurchasePageTest"></class>
+			<class name="com.bd.qa.testcases.ConfirmationPageTest"></class>
+		</classes>
+	</test>
+</suite>
